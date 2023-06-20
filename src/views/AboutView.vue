@@ -41,9 +41,15 @@
 @media screen and (max-width: 880px) {
     .about {
         flex-direction: column;
+        align-items: center;
 
         &__image {
-            margin: auto;
+            padding: 0 10%;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
         }
     }
 }

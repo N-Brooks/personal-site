@@ -26,4 +26,12 @@
         border-bottom: 1px solid #B5509C;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .nav {
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: baseline;
+    }
+}
 </style>
