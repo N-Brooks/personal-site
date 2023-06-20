@@ -7,6 +7,5 @@ export default defineConfig({
   plugins: [vue(), svgLoader()],
   server: {
     port: 3003
-  },
-  base: "/personal-site/"
+  }
 })
