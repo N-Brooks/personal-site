@@ -9,7 +9,7 @@
 </script>
 <style lang="scss">
 .portfolio {
-    max-height: 65vh;
+    max-height: 65dvh;
     overflow: auto;
 }
 </style>

@@ -30,13 +30,13 @@ import { ref } from "vue";
 <style lang="scss">
 .main {
   width: 53rem;
-  max-height: 100vh;
+  max-height: 100dvh;
   display: grid;
   margin: auto;
 
   &__content {
       grid-area: 1 / 1;
-      max-height: 65vh;
+      max-height: 65dvh;
       margin: 3rem 2rem;
       z-index: 5;
       display: flex;
@@ -79,11 +79,11 @@ import { ref } from "vue";
 @media screen and (max-width: 880px) {
   .main {
     margin: 1rem;
-    max-height: 100vh;
-    width: calc(100vw - 2rem);
+    max-height: 100dvh;
+    width: calc(100dvw - 2rem);
 
     &__content {
-      max-height: calc(100vh - 5.25rem);
+      max-height: calc(100dvh - 5.25rem);
       margin: 1.5rem 2rem;
 
       &--router {
