@@ -62,7 +62,6 @@ import { ref } from "vue";
   }
 
   &__bottom-right {
-      transition: all 5s ease;
       grid-area: 1 / 1;
       width: auto;
       height: auto;
